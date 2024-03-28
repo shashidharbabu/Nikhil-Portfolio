@@ -30,6 +30,7 @@ import {
   saras,
   sjsu,
   y2y,
+  bart,
   
   
 } from "../assets";
@@ -226,25 +227,25 @@ const experiences = [
 
 const projects = [
   {
-    name: "Content Creation Engine using LSTM",
+    name: "Exploring BART & VTA Data Models through R-DBMS",
     description:
-      "Web application designed to facilitate content creation and validation with the help of a LSTM model",
+      "The primary goal of the course project is to analyze and extract valuable insights from the Bay Area Rapid Transit (BART) and VTA transportation systems’ datasets.",
     tags: [
       {
-        name: "lstm",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "flask",
+        name: "bigquery",
         color: "green-text-gradient",
       },
       {
-        name: "python",
+        name: "tableau",
         color: "pink-text-gradient",
       },
     ],
-    image: lstm,
-    source_code_link: "https://github.com/kevinmathew247/LSTM-Content-Creation-Engine",
+    image: bart,
+    source_code_link: "https://medium.com/@nikhil.thota_81762/exploring-bart-vta-data-models-through-r-dbms-3d9aa7f197ee",
   },
   {
     name: "Classification of celestial bodies using CNN",
@@ -286,24 +287,24 @@ const projects = [
   },
 ];
 
-const creativeprojects = [
-  {
-    name: "Instagram",
-    description:"Check out my Instagram profile to view my creative works and reels",
-    tags: [
-      {
-        name: "contentcreation",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mycreativeside",
-        color: "green-text-gradient",
-      },
-    ],
-    image: profile,
-    source_code_link: "https://www.instagram.com/_kevin_mathew_/reels/?next=%2F",
-  },
-];
+// const creativeprojects = [
+//   {
+//     name: "Instagram",
+//     description:"Check out my Instagram profile to view my creative works and reels",
+//     tags: [
+//       {
+//         name: "contentcreation",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "mycreativeside",
+//         color: "green-text-gradient",
+//       },
+//     ],
+//     image: profile,
+//     source_code_link: "https://www.instagram.com/_kevin_mathew_/reels/?next=%2F",
+//   },
+// ];
 
 //export { services, technologies, experiences, testimonials, projects };
-export { services, technologies, experiences, projects, creativeprojects };
+export { services, technologies, experiences, projects };
