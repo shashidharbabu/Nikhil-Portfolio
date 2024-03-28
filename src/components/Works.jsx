@@ -156,14 +156,14 @@ const Works = () => {
         ))}
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      {/* <div className='mt-20 flex flex-wrap gap-7'>
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText}`}>Creative Projects.</h2>
       </motion.div>
         {creativeprojects.map((project, index) => (
           <ProjectCard2 key={`project-${index}`} index={index} {...project} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
