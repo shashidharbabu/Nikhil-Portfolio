@@ -27,7 +27,7 @@ import capillary from "./company/capillary.jpeg";
 import pharmeasy from "./company/pharmeasy.jpeg";
 import sjsu from "./company/sjsu.jpeg";
 import y2y from "./company/y2y.jpeg";
-
+import bart from "./bart.png"
 import lstm from "./lstm.png";
 import planets from "./planets.png";
 import tripguide from "./tripguide.png";
@@ -57,7 +57,7 @@ export {
   docker,
   git,
   spark,
-
+  bart,
   lstm,
   planets,
   tripguide,
