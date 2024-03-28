@@ -29,6 +29,11 @@ import sjsu from "./company/sjsu.jpeg";
 import y2y from "./company/y2y.jpeg";
 
 import lstm from "./lstm.png";
+import bart from "./bart.png";
+import marvel from "./marvel.jpg";
+import sanfrancisco from "./sanfrancisco.jpeg";
+import transit from "./transit.jpeg";
+import drug from "./drug.jpeg";
 import planets from "./planets.png";
 import tripguide from "./tripguide.png";
 import instagram from "./instagram.png";
@@ -59,6 +64,11 @@ export {
   spark,
 
   lstm,
+  bart,
+  marvel,
+  sanfrancisco,
+  transit,
+  drug,
   planets,
   tripguide,
   instagram,

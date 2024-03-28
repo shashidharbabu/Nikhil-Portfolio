@@ -21,6 +21,11 @@ import {
 
   
   lstm,
+  bart,
+  marvel,
+  transit,
+  sanfrancisco,
+  drug,
   profile,
   multi,
   
@@ -226,16 +231,16 @@ const experiences = [
 
 const projects = [
   {
-    name: "Content Creation Engine using LSTM",
+    name: "Exploring BART & VTA Data Models through R-DBMS.",
     description:
-      "Web application designed to facilitate content creation and validation with the help of a LSTM model",
+      "Utilizing a comprehensive tech stack including Workbench, Tableau, SQL, BigQuery, DBT Cloud, and Neo4j, we meticulously modeled and analyzed Bay Area Rapid Transit (BART) and Valley Transportation Authority (VTA) datasets to develop actionable insights and visualize complex transportation networks for enhanced decision-making and intuitive user interface experiences in a React-based application.",
     tags: [
       {
-        name: "lstm",
+        name: "sql",
         color: "blue-text-gradient",
       },
       {
-        name: "flask",
+        name: "tableau",
         color: "green-text-gradient",
       },
       {
@@ -243,46 +248,55 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: lstm,
-    source_code_link: "https://github.com/kevinmathew247/LSTM-Content-Creation-Engine",
+    image: transit,
+    source_code_link: "https://github.com/nikhileasy420/MSDA/tree/main/DB-course-project",
   },
   {
-    name: "Classification of celestial bodies using CNN",
+    name: "San Francisco Employment Insights: Analyzing Job Trends and Metrics.",
     description:
-      "Web application developed using CNN and Flask which classifies any celestial body present in an image. This project aims to automate and enhance the analysis of astronomical data",
+      "Employment Trends Analysis: Leveraging Apache Spark, Kafka, EMR, and Redshift, this project predicts and visualizes job-related metrics in San Francisco departments, aiding job seekers with insights into benefits, salaries, and hiring trends, while delivering real-time updates through React and API integration.",
     tags: [
       {
-        name: "flask",
+        name: "pyspark",
         color: "blue-text-gradient",
       },
       {
-        name: "python",
+        name: "kafka",
         color: "green-text-gradient",
       },
       {
-        name: "imageclassification",
+        name: "spark",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tableau",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: sanfrancisco,
+    source_code_link: "https://shorturl.at/nswNT",
+  },
+
+  {
+    name: "Prediction of Drug-Induced Side Effects Through A Graph Comprehensive Approach.",
+    description:
+      "Applied Neo4j graph modeling and GCN algorithms on BioSNAP datasets to predict side-effects from drug-drug interactions, achieving an 87% accuracy rate, addressing critical research in polypharmacy with real-time relevance.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "neo4g",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GCN",
         color: "pink-text-gradient",
       },
     ],
-    image: planets,
-    source_code_link: "https://github.com/kevinmathew247/CNN-Image-Detection-For-Celestial-Bodies",
-  },
-  {
-    name: "Multi-Armed Bandits",
-    description:
-      "Implementation of various multi-armed bandits algorithms using Python",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "reinforcementlearning",
-        color: "green-text-gradient",
-      },
-    ],
-    image: multi,
-    source_code_link: "https://github.com/kevinmathew247/Multi-Armed-Bandit/tree/main/Multi_Armed_Bandit",
+    image: drug,
+    source_code_link: "https://shorturl.at/lwP45",
   },
 ];
 
